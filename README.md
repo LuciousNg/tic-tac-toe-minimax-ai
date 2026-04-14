@@ -28,7 +28,7 @@ tic-tac-toe-minimax-ai/
 ## Development Roadmap
 - [x] Project initialization, Git/GitHub setup & README structure.
 
-- [ ] Milestone 1: Implement core Board logic (board.py) & Console display.
+- [x] Milestone 1: Implement core Board logic (board.py) & Console display.
 
 - [ ] Milestone 2: Build Human Player input handling (player.py).
 
