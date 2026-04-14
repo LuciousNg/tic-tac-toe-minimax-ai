@@ -1,39 +1,52 @@
-# 🤖 Unbeatable Tic-Tac-Toe with Minimax AI
+# 🤖 ARES: Unbeatable Tic-Tac-Toe AI
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Under_Construction-warning.svg)
 
+## Abstract
+This repository presents the design and implementation of an unbeatable Tic-Tac-Toe AI agent. Rather than relying on hardcoded heuristics or simple `if/else` logic, this project implements the **Minimax algorithm**, a classic decision-making concept in Game Theory. The AI agent simulates all possible future states of the board to always choose the optimal move, guaranteeing at least a draw against any human player.
+
+> [!NOTE]
+> **Status:** Work in Progress. This project is my first step into the world of Artificial Intelligence after completing foundational Python courses. 
+
+## Features
+- **Unbeatable AI:** Full implementation of the Minimax algorithm for optimal decision-making.
+- **Object-Oriented Architecture:** Clean separation of concerns between game logic, player interfaces, and AI algorithms.
+- **Console Interface:** Lightweight, terminal-based gameplay.
+
+## Project Structure
 ```text
-****************************************************************
-* PROJECT: UNBEATABLE TIC-TAC-TOE (MINIMAX AI)                 *
-* Author : Binh (Freshman @ UET-VNU)                           *
-* Major  : Information Technology (CN1)                        *
-* Status : WORK IN PROGRESS (Development in Progress)          *
-****************************************************************
+tic-tac-toe-minimax-ai/
+├── .gitignore              # Git ignore rules
+├── README.md               # Project documentation
+├── requirements.txt        # Python dependencies
+├── main.py                 # Application entry point and game loop
+├── board.py                # Board state management and rendering
+├── player.py               # Human and AI player class definitions
+└── minimax_algo.py         # Minimax algorithm implementation
+```
+## Development Roadmap
+- [x] Project initialization, Git/GitHub setup & README structure.
 
-[INTRODUCTION]
-This project represents my first step into the world of AI 
-after completing my foundational Python courses. Rather than 
-using standard if/else logic, I am researching and 
-implementing the Minimax algorithm — a classic Game Theory 
-technique that enables the computer to "think" ahead and select 
-the optimal move, making it truly unbeatable.
+- [ ] Milestone 1: Implement core Board logic (board.py) & Console display.
 
-[ROADMAP - DEVELOPMENT PROGRESS]
-----------------------------------------------------------------
-1. [x] Project initialization, Git/GitHub setup & README.
-2. [ ] Implement Board logic (board.py) & Console display.
-3. [ ] Build Human Player logic (Handle user input).
-4. [ ] Research & Implement Minimax Algorithm (AI Brain).
-5. [ ] Complete Game Loop (main.py) and System Testing.
-----------------------------------------------------------------
+- [ ] Milestone 2: Build Human Player input handling (player.py).
 
-[NOTE]
-This project is built with a "Learning in Public" mindset. 
-Every line of code represents an effort to explore and apply 
-the fundamental CS concepts I am currently learning at school.
+- [ ] Milestone 3: Research & Implement Minimax Algorithm (minimax_algo.py).
 
-[THANKS]
-Thank you for visiting this repository! Any feedback or 
-knowledge shared by the developer community means a lot to 
-a first-year student like me.
+- [ ] Milestone 4: Complete the Game Loop (main.py) and conduct system testing.
+
+## Build & Run
+Ensure Python 3.x is installed on your system.
+
+```bash
+# Clone the repository
+git clone https://github.com/LuciousNg/tic-tac-toe-minimax-ai.git
+cd tic-tac-toe-minimax-ai
+
+# Run the game
+python main.py
+```
+## About the Author
+Binh
+Freshman, Information Technology (CN1) - VNU University of Engineering and Technology (UET)
