@@ -48,5 +48,5 @@ cd tic-tac-toe-minimax-ai
 python main.py
 ```
 ## About the Author
-Binh
-Freshman, Information Technology (CN1) - VNU University of Engineering and Technology (UET)
+**Binh Nguyen Phuc**<br>
+*Freshman, Information Technology (CN1) - VNU University of Engineering and Technology (UET)*
