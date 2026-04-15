@@ -1,4 +1,4 @@
-# 🤖 ARES: Unbeatable Tic-Tac-Toe AI
+# 🤖 HARITH: Unbeatable Tic-Tac-Toe AI
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Under_Construction-warning.svg)
@@ -28,9 +28,9 @@ tic-tac-toe-minimax-ai/
 ## Development Roadmap
 - [x] Project initialization, Git/GitHub setup & README structure.
 
-- [ ] Milestone 1: Implement core Board logic (board.py) & Console display.
+- [x] Milestone 1: Implement core Board logic (board.py) & Console display.
 
-- [ ] Milestone 2: Build Human Player input handling (player.py).
+- [x] Milestone 2: Build Human Player input handling (player.py).
 
 - [ ] Milestone 3: Research & Implement Minimax Algorithm (minimax_algo.py).
 
