@@ -1,3 +1,5 @@
+import random
+from minimax_algo import minimax
 class HumanPlayer:
     def __init__(self, letter):
         letter = letter.upper()
