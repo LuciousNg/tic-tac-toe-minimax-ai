@@ -21,3 +21,14 @@ class HumanPlayer:
             except ValueError:
                 print("Wrong Value, please enter a valid empty position from 0 to 8")
         return val
+
+class UnbeatableAI:
+    def __init__(self, letter):
+        self.letter = letter
+
+    def get_move(self, board):
+        if len(board.available_moves()) == 9:
+            square = random.choice(board.available_moves())
+        else:
+            square = minimax(board, self.letter)['position']
+        return square

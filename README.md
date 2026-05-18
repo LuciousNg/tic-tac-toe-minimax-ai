@@ -1,13 +1,13 @@
 # 🤖 HARITH: Unbeatable Tic-Tac-Toe AI
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Status](https://img.shields.io/badge/Status-Under_Construction-warning.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
 ## Abstract
 This repository presents the design and implementation of an unbeatable Tic-Tac-Toe AI agent. Rather than relying on hardcoded heuristics or simple `if/else` logic, this project implements the **Minimax algorithm**, a classic decision-making concept in Game Theory. The AI agent simulates all possible future states of the board to always choose the optimal move, guaranteeing at least a draw against any human player.
 
 > [!NOTE]
-> **Status:** Work in Progress. This project is my first step into the world of Artificial Intelligence after completing foundational Python courses. 
+> **Status:** Completed. This project marks my successful implementation of the Game Theory Minimax algorithm from scratch.
 
 ## Features
 - **Unbeatable AI:** Full implementation of the Minimax algorithm for optimal decision-making.
@@ -32,9 +32,9 @@ tic-tac-toe-minimax-ai/
 
 - [x] Milestone 2: Build Human Player input handling (player.py).
 
-- [ ] Milestone 3: Research & Implement Minimax Algorithm (minimax_algo.py).
+- [x] Milestone 3: Research & Implement Minimax Algorithm (minimax_algo.py).
 
-- [ ] Milestone 4: Complete the Game Loop (main.py) and conduct system testing.
+- [x] Milestone 4: Complete the Game Loop (main.py) and conduct system testing.
 
 ## Build & Run
 Ensure Python 3.x is installed on your system.
