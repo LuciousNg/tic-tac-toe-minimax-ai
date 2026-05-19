@@ -1,4 +1,4 @@
-# 🤖 HARITH: Unbeatable Tic-Tac-Toe AI
+# HARITH: Unbeatable Tic-Tac-Toe AI
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
